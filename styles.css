@@ -1,0 +1,483 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hello-menu {
+    background: url("img/back1.jpg") no-repeat;
+    box-sizing: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 380px;
+    border: none;
+    background-color: rgba(48, 46, 45, 0.5);
+  background-blend-mode: multiply;
+} 
+
+h3, p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+    width: 220px;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.ul-navigation {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-family: 'Oswald', sans-serif;
+
+    text-transform: uppercase;
+    padding: 20px;
+    color:blue;
+    margin-left: 600px;
+}
+
+.nav {
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    font-size: 25px;
+    color: #c6dfe7;
+    margin: 10px;
+}
+
+.header-nav1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    display: flex;   
+}
+
+.main-inf {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-inf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 44px;
+    color: #c6dfe7;
+    font-weight: 100;
+}
+
+.hello-h1 {
+    font-weight: 600;
+    margin-top: 30px;
+    margin-left: 200px;
+    font-family: 'Ranchers', cursive;
+}
+
+.hello-span {
+    font-size: 35px;
+    margin-right: 100px;
+    font-family: 'Anton', sans-serif;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+        /* background-image: url(https://lilo.qodeinteractive.com/wp-content/uploads/2018/05/h1-backround-img-1.jpg);
+     */
+    background-color: #c6dfe7;
+    padding-bottom: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #154c5f;
+    padding: 30px;
+
+}
+
+.card:nth-child(even) {
+    margin-right: 60px;
+}
+
+.card:nth-child(odd) {
+    margin-left: 60px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.text:nth-child(even) {
+    margin-left: 40px;
+}
+
+.text:nth-child(odd) {
+    margin-left: 40px;
+}
+
+.name_team {
+    margin-left: 40%;
+}
+
+.name_team, .about_img {
+    display: flex;
+    border-radius: 40px;
+}
+
+.h_team {
+    font-size: 30px;
+    padding-top: 20px;
+    color: #154c5f;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.hr {
+    margin: 20px 0;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 2px solid #110909;
+	border-bottom: 2px solid #000;
+}
+
+.service {
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: #45666e; */
+    background-color: #154c5f;
+}
+
+.service_h1 {
+    font-size: 42px;
+    margin: 30px 12px;
+    color: #dce5e7;
+    font-family: 'Oswald', sans-serif;
+}
+
+.serrvice_card {
+    display: flex;
+}
+
+.serrvice_card {
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    font-size: 30px;
+    color: #dce5e7;
+}
+
+.serv_card {
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.p_serv {
+    margin-left: 40px;
+    margin-top: 10px;
+    width: 340px;
+}
+
+.day_care {
+    padding-bottom: 100px;
+    background-color: #c6dfe7;
+}
+
+.DC_h1 {
+    font-size: 67px;
+    font-family: 'Oswald', sans-serif;
+    color: #154c5f;
+    padding: 80px 0px 10px 100px;
+}
+
+.DC_p {
+    font-size: 38px;
+    width: 800px;
+    color: #154c5f;
+    margin-left: 100px; 
+}
+
+.DC_cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card1_DC {
+    margin: 40px;
+}
+
+.DC_cards_img {
+    width: 180px;
+    margin-left: 80px;
+    /* margin: 40px 40px 40px 50px;  */
+}
+
+
+.DC_cards_h3, .DC_cards_p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.DC_cards_h3 {
+    font-size: 40px;
+    color: #154c5f;
+    margin: 20px;
+}
+
+.fd {
+    margin-right: 50px;
+}
+
+.DC_cards_p {
+    font-size: 26px;
+    color: #154c5f;
+}
+
+.pre_school {
+    padding-bottom: 100px;
+    background-color: #154c5f;
+}
+
+.PS_h1 {
+    font-size: 67px;
+    font-family: 'Oswald', sans-serif;
+    color: #c6dfe7;
+    padding: 80px 0px 10px 100px;
+}
+
+.PS_p {
+    font-size: 38px;
+    width: 800px;
+    color: #c6dfe7;
+    margin-left: 100px; 
+}
+
+.PS_about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #c6dfe7;
+}
+
+.PS_about_img {
+    margin-left: 380px;
+    margin-top: 40px;
+    width: 250px;
+}
+
+.PS_about_text {
+    margin-left: 70px;
+}
+
+.PS_about_h2 {
+    font-size: 40px;
+}
+
+.PS_about_p {
+    font-size: 28px;
+    padding: 5px;
+}
+
+.PS_about_li {
+    padding: 20px;
+}
+
+.activity_classes {
+    padding-bottom: 50px;
+    background-color: #c6dfe7;
+}
+
+.AC_text_h1 {
+    font-size: 67px;
+    font-family: 'Oswald', sans-serif;
+    color: #154c5f;
+    padding: 80px 0px 10px 100px;
+}
+
+.AC_p {
+    font-size: 38px;
+    width: 800px;
+    color: #154c5f;
+    margin-left: 100px; 
+}
+
+.AC_cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card1_AC {
+    margin: 0px 50px 50px 50px;
+}
+
+.AC_cards_block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.AC_h2, .AC_cards_img, .AC_cards_p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.AC_cards_img {
+    width: 250px;
+    margin: 30px;
+}
+
+.AC_h1 {
+    font-size: 40px;
+    margin: 70px 0px;
+    color: #154c5f;
+    font-family: 'Oswald', sans-serif;
+}
+
+.AC_h2 {
+
+    font-size: 28px;
+    color: #154c5f;
+    
+}
+
+
+.dvig {
+    margin-right: 60px;
+}
+
+.AC_cards_p {
+    font-size: 24px;
+    color: #154c5f;
+}
+
+.tution_classes {
+    padding-bottom: 80px;
+    background-color: #154c5f;
+}
+
+.TC_text_h1 {
+    font-size: 67px;
+    font-family: 'Oswald', sans-serif;
+    color: #c6dfe7;
+    padding: 80px 0px 10px 100px;
+}
+
+.TC_p {
+    font-size: 38px;
+    width: 800px;
+    color: #c6dfe7;
+    margin-left: 100px; 
+}
+
+.classes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    font-size: 33px;
+    color: #c6dfe7;
+}
+
+.TC_about_text {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.text1_h2, .text2_h2 {
+    font-size: 35px;
+    margin: 8px;
+    color: #c6dfe7;
+}
+
+.text_p {
+    font-size: 28px;
+    margin: 8px;
+    color: #c6dfe7;
+}
+
+.TC_about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.text1, .text2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.img_r4 {
+    margin-bottom: 20px;
+}
+
+.end {
+    padding-bottom: 100px;
+    background-color: #c6dfe7;
+}
+
+.end_imges {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+}
+
+.end_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #154c5f;
+}
+
+.end_h3 {
+    margin-bottom: 8px;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif
+}
+
+.end_h2 {
+    font-family: 'Anton', sans-serif;
+    margin: 4px;
+    font-size: 25px;
+    font-weight: 500;
+}
